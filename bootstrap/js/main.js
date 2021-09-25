@@ -120,9 +120,9 @@ for (var i = 0; i < fruits.length; i++) {
 var ochirishQoshish1 = function () {
   elUstidaPush.innerHTML = '';
   for (var i = 0; i < ustida.length; i++) {
-    var itemLi = document.createElement('li');
-    itemLi.textContent = `- ${ustida[i]}`;
-    elUstidaPush.append(itemLi);
+    var ustiItemLi = document.createElement('li');
+    ustiItemLi.textContent = `- ${ustida[i]}`;
+    elUstidaPush.append(ustiItemLi);
   }
 }
 
@@ -172,8 +172,8 @@ for (var k = 0; k < qoshimchaArray.length; k++){
 var ochirishQoshish2 = function () {
   elQoshimchaPush.innerHTML = '';
   for (var i = 0; i < qoshimchaPush.length; i++) {
-    var itemL = document.createElement('li');
-    itemL.textContent = `- ${qoshimchaPush[i]}`;
-    elQoshimchaPush.append(itemL);
+    var qoshItemLi = document.createElement('li');
+    qoshItemLi.textContent = `- ${qoshimchaPush[i]}`;
+    elQoshimchaPush.append(qoshItemLi);
   }
 }
