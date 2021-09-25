@@ -52,6 +52,18 @@ span{
     margin-bottom: 5px;
 }
 
+.qoshimchalist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.qoshimchalist{
+    width: 400px;
+    margin-bottom: 5px;
+    margin-left: -35px;
+}
+
 .ustida {
     list-style-type: none;
 }
