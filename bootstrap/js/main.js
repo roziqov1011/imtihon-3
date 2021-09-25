@@ -14,6 +14,7 @@ var elNon = document.querySelector(".js-size-value");
 for (var i = 0; i < thickness.length; i++) {
   var newtHickOption = document.createElement("option");
   newtHickOption.id = i;
+  newtHickOption.setAttribute("name", "qalinligi");
   newtHickOption.value = thickness[i];
   newtHickOption.textContent = thickness[i];
   
@@ -46,7 +47,7 @@ for ( var j = 0; j < sm.length; j++){
   newSmRadio.type = "radio";
   newSmRadio.id = j + 15;
   newSmRadio.value = sm[j];
-  newSmRadio.setAttribute("name", "name")
+  newSmRadio.setAttribute("name", "kattaligi")
   newSmLabel.setAttribute("for", j + 15)
   newSmLabel.textContent = sm[j];
   newSmLabel.setAttribute("class", "btn_cm");
@@ -78,7 +79,7 @@ var fruits = [
   "Kurka",
   "Zaytun",
   "Tuzlangan bodring",
-  "Qo'ziqorin",
+  "Qoziqorin",
   "Qazi",
 ];
 
@@ -90,6 +91,7 @@ for (var i = 0; i < fruits.length; i++) {
 
   newElFruitsCheckbox.type = "checkbox";
   newElFruitsCheckbox.id = i;
+  newElFruitsCheckbox.setAttribute("name" , "ustida");
   newElFruitsCheckbox.value = fruits[i];
 
   newElFruitsSpan.textContent = fruits[i];
@@ -142,6 +144,7 @@ for (var k = 0; k < qoshimchaArray.length; k++){
   
   newQoshInput.type = "checkbox";
   newQoshInput.id = k;
+  newQoshInput.setAttribute("name", "qoshimch");
   newQoshInput.value= qoshimchaArray[k];
   
   newQoshSpan.textContent = qoshimchaArray[k];
